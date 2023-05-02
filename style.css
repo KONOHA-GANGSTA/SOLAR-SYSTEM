@@ -1,3 +1,71 @@
 body{
     background-color: rgb(1, 6, 21);
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.menue{
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 2em 2em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 2em;
+}
+
+.menue div{
+    background-color: rgb(40, 110, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(255, 233, 121);
+    transition: 0.5s;
+}
+
+.menue div:hover{
+    background-color: rgb(254, 186, 0);
+    color: black;
+    box-shadow: 0 0 10px rgb(254, 186, 0);
+}
+
+.selected{
+    background-color: rgb(254, 186, 0) !important;
+    color: black !important;
+    box-shadow: 0 0 10px rgb(254, 186, 0);
+}
+
+#info{
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    border: 5px solid white;
+    right: 5%;
+    top: 5%;
+    height: fit-content;
+    color: white;
+}
+
+
+#info div {
+    margin: 10px;
+    font-size: 30px;
+}
+
+#name{
+    font-size: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+}
+
+
+.hid{
+    display: none;
+    opacity: 100%;
 }
