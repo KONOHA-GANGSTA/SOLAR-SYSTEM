@@ -169,7 +169,7 @@ planetProps.set("system",{radius:76,coef:0.00001});
 
 let renderer = new THREE.WebGL1Renderer({antialias: true});
 renderer.setSize( window.innerWidth/1.1, window.innerHeight/1.1 );
-renderer.setClearColor( 0x010616, 1 );
+renderer.setClearColor( 0x010616, 0 );
 renderer.shadowMap.enabled = true;
 
 

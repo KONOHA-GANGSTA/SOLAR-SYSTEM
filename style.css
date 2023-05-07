@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(1, 6, 21);
+    background-image: url("back.jpg");
+    background-size: cover;
     display: flex;
     margin: 10px;
     flex-direction: column;
